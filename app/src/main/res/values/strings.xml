@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Total Fitness</string>
+    <string name="action_settings">Configurações</string>
+    <string name="user">Usuario</string>
+    <string name="password">Senha: </string>
+    <string name="start">Entrar: </string>
+    <string name="erro_autenticacao">Usuário ou senha incorretos</string>
+    <string name="student">Aluno: </string>
+    <string name="gym">Academia: </string>
+    <string name="sex">Sexo: </string>
+    <string name="male">Masculino</string>
+    <string name="female">Feminino</string>
+    <string name="age">Idade: </string>
+    <string name="objective">Objetivo: </string>
+    <string name="weight">Peso: </string>
+    <string name="height">Altura: </string>
+    <string name="imc">IMC: </string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_tabs">Tabs</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_finish_tabs">Total Fitness</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

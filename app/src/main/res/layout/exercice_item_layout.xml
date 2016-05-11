@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="@color/colorTextBackground"
+    android:paddingLeft="16dp">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/iv_car"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="6dp"
+        android:src="@null" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/iv_car"
+        android:id="@+id/tv_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="#000"
+        android:text="Carga:"
+        android:id="@+id/tv_brand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/chargePhoto"
+        android:layout_toRightOf="@+id/chargePhoto"
+        android:layout_toEndOf="@+id/chargePhoto"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="100kg"
+        android:id="@+id/tv_brand"
+        android:layout_alignTop="@+id/tv_brand1"
+        android:layout_alignLeft="@+id/tv_brand1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="46dp"/>
+
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/chargePhoto"
+        android:src="@drawable/weights10"
+        android:layout_below="@+id/tv_model"
+        android:layout_toRightOf="@+id/iv_car"
+        android:layout_toEndOf="@+id/iv_car" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/seriesPhoto"
+        android:src="@drawable/series1"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_alignTop="@+id/chargePhoto"
+        android:layout_toRightOf="@+id/tv_brand"
+        android:layout_toEndOf="@+id/tv_brand" />
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/tv_brand"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Series:"
+        android:id="@+id/series"
+        android:layout_above="@+id/vw_divider"
+        android:layout_toRightOf="@+id/seriesPhoto"
+        android:layout_toEndOf="@+id/seriesPhoto" />
+
+
+
+</RelativeLayout>
